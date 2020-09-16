@@ -1,5 +1,19 @@
-body{
+#navigation-dropdown {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    background-color:#eeeeee;
+    border:#69C 4px solid;
+    margin:0;
+    padding:15px 15px 15px 30px;
+    /*This here*/
+    -webkit-transition: 3s ease-out;
+    -moz-transition: 3s ease-out;
+    -ms-transition: 3s ease-out;
+    transition: 3s ease-out;
+}
+.hide {
+    opacity: 0;
+    height: 0 !important;
 }
